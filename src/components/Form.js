@@ -6,6 +6,7 @@ class Form extends React.Component {
             <form>
                 <input type="text" name="City" placeholder="City..." />
                 <input type="text" name="Country" placeholder="Country..." />
+                <button>Get Weather</button>
             </form>
         );
     }
